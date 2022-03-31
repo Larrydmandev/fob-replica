@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 
+
 function Footer() {
   return (
     <section className="foot-sec">
@@ -26,7 +27,7 @@ function Footer() {
                                 <i class="fa-solid fa-envelope foot-i"></i>
                             </div>
                         </Col>
-                        <Col md={11} style={{marginBottom: '5%'}}>
+                        <Col md={11} style={{marginBottom: '1%'}}>
                            <div className="loc-div-1">
                                <a href="#top" className="contact-a">sales@fob.ng</a>
                            </div>

@@ -1,11 +1,12 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
+// import AOS from 'aos';
 
 function Services() {
   return (
     <section className="serv-sec">
         <div className="text-center serv-h3">
-            <h3>Services we Provide</h3>
+            <h3 data-aos="flip-right">Services we Provide</h3>
         </div>
         <Row>
             <Col md={4}>
