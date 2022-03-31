@@ -1,13 +1,447 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+.nav-sec{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  overflow-x: hidden;
+}
+
+.bg-nav{
+  background-color: white !important;
+}
+
+#nav-link{
+  font-weight: 500;
+  color: black;
+}
+
+#nav-link:hover{
+  color: rgb(11,44,131);
+}
+.car-sec{
+  overflow-x: hidden;
+}
+
+.con-sec{
+  margin-top: 10%;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+.main-con{ 
+  margin-bottom: 3%;
+}
+
+.con-div{
+  position: relative;
+  /* left: 100%; */
+  margin-bottom: 10%;
+}
+
+.sub-con-div{
+  width: 10%;
+  padding-left: 39%;
+  margin-top: 5%;
+}
+.sub-con-div-1{
+  width: 50%;
+  position: relative;
+  /* top: 10%; */
+  left: 30%;
+  margin-top: -1%;
+}
+.sub-con-div-2{
+  width: 50%;
+  position: relative;
+  left: 30%;
+  margin-top: -1%;
+}
+
+
+.sub-sub-con-div{
+  width: 80%;
+  position: relative;
+  left: 15%;
+}
+
+.abt-span{
+  color: rgb(210,8,14);
+}
+.abt-span-1{
+  color: rgb(187,11,27);
+}
+.abt-span-2{
+  color: rgb(152,28,60);
+}
+.abt-span-3{
+  color:rgb(116,32,80);
+}
+.abt-span-4{
+  color: rgb(108,52,103);
+}
+.abt-span-5{
+  color: rgb(46,52,129);
+}
+.abt-span-6{
+  color: rgb(47,80,159);
+}
+
+.abt-sec{
+  overflow-x: hidden;
+  height: 80vh;
+  margin-top: 10%;
+}
+
+.main-abt{
+  padding-top: 20%;
+}
+
+.abt-p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.abt-p1{
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  font-weight: 400;
+  padding-left: 20%;
+}
+
+.abt-p2{
+  padding-right: 47%;
+}
+
+.abt-vid{
+  padding-top: 25%;
+}
+
+.serv-sec{
+  overflow-x: hidden;
+  margin-top: 5%;
+}
+
+.serv-span{
+  display: inline-block;
+  font-size: 2em;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  border: 2px solid #000;
+  color: #000;
+  /* -webkit-border-radius: 50%;
+  -ms-border-radius: 50%; */
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+.serv-i{
+  padding-bottom: 20px;
+}
+
+.serv-p{
+  color: rgb(53,77,155);
+}
+
+.serv-p1{
+  width: 59%;
+}
+
+.serv-p2{
+  width: 80%;
+  text-align: center;
+}
+
+.serv-div1{
+  position: relative;
+  left: 20%;
+}
+.serv-div2{
+  position: relative;
+  left: 10%;
+}
+
+.serv-h3{
+  margin-bottom: 5%;
+}
+
+.serv-btn{
+  background-color: #0d3e9b !important;
+  border-color: #0d3e9b !important;
+}
+
+.serv-btn:hover{
+  background-color: red !important;
+}
+
+.find-sec{
+  margin-top: 10%;
+  background-image: url(../public/images/BG-Web.png);
+  height: 100vh;
+  background-position: 70%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.main-find{
+  right: 30%;
+}
+
+.mail-sec{
+  margin-top: 10%;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.mail-div{
+  margin-bottom: 2%;
+}
+
+#mail-form{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-width: 2px;
+  border-radius: 0;
+  border-color: rgb(58, 21, 100);
+}
+
+#main-form{
+  position: relative;
+  left: 25%;
+}
+
+#mail-btn{
+  background-color: red !important;
+}
+
+#mail-btn:hover{
+  background-color: rgb(220, 16, 145) !important;
+}
+
+.foot-sec{
+  background-color: #0d3e9b;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10%;
+  overflow-x: hidden;
+}
+
+.main-foot{
+  padding-top: 50%;
+}
+
+.h3-div{
+  margin-bottom: 10%;
+}
+.h3-div-1{
+  margin-bottom: 10%;
+  padding-right: 65%;
+}
+
+.foot-i{
+  color: red
+}
+
+.div-i{
+  position: relative;
+  left: 1950%;
+}
+
+.loc-div{
+  padding-left: 18%;
+}
+.loc-div-1{
+  padding-right: 26%;
+}
+
+.loc-div-2{
+  padding-right: 18%;
+}
+
+.loc-div p{
+  text-align: justify;
+}
+
+.contact-a{
+  text-decoration: none;
+  color: white;
+  transition: all .5s
+}
+
+.contact-a:hover{
+  color: red;
+}
+
+
+.li-div{
+  padding-left: 25%;
+}
+.li-div-1{
+  padding-right: 5%;
+}
+
+
+
+.comp-a{
+  padding-right: 40%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a:hover{
+  color: red;
+}
+
+.span-a{
+  padding-top: 30%;
+}
+
+.comp-a-1{
+  padding-right: 60%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-1:hover{
+  color: red;
+}
+
+.comp-a-2{
+  padding-right: 20%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-2:hover{
+  color: red;
+}
+
+.comp-a-3{
+  padding-right: 25%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-3:hover{
+  color: red;
+}
+
+.comp-a-4{
+  padding-right: 15%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-4:hover{
+  color: red;
+}
+
+.comp-a-5{
+  padding-right: 25%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-5:hover{
+  color: red;
+}
+
+.comp-a-6{
+  padding-right: 16%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-6:hover{
+  color: red;
+}
+.comp-a-7{
+  padding-right: 35%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-7:hover{
+  color: red;
+}
+.comp-a-8{
+  padding-right: 49%;
+  text-decoration: none;
+  color: white;
+  transition: all .5s;
+  text-align: justify;
+}
+
+.comp-a-8:hover{
+  color: red;
+}
+
+.li-div ul li{
+  color: red;
+}
+
+.li-div-1 ul li{
+  color: red;
+}
+
+.copy-sec{
+  background-color: red;
+  height: 10vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+  .main-serv-div{
+    margin-bottom: 5%;
+  }
+  .abt-p1{
+    padding-right: 10%;
+  }
+  .abt-p2{
+    padding-left: 10%;
+  }
+  .abt-vid{
+    padding-top: 1%;  
+  }
+   .abt-sec{
+    height: 88vh;
+  }
+  .serv-sec{
+    margin-top: 20%;
+  }
 }
