@@ -20,7 +20,7 @@ function App() {
       <Connect/>
       <About/>
       <Services/>
-      {/* <Find/> */}
+      <Find/>
       <Mail/>
       <Footer/>
       <Copyright/>
