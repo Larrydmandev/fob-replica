@@ -27,7 +27,7 @@ function About() {
             <Col md={6}>
                <div className="abt-vid">
                   <iframe style={{width: '450', height: '400'}}
-                  src="https://www.youtube.com/watch?v=w8NBx7bfbYc"
+                  src="https://youtu.be/w8NBx7bfbYc"
                   frameBorder={0} allowFullScreen></iframe>
                </div>
             </Col>
